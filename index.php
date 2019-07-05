@@ -32,7 +32,7 @@
     $db = "<Nama database Anda>";
 
     try {
-        $conn = new PDO("sqlsrv:server = tasyatasya.database.windows.net ; Database = $db", $user, $pass);
+        $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
     } catch(Exception $e) {
         echo "Failed: " . $e;
