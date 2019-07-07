@@ -28,7 +28,7 @@
  <?php
     $host = "tasyatasya.database.windows.net";
     $user = "tasya";
-    $pass = "#ncui257t";
+    $pass = "#nata2000";
     $db = "Tasya";
 
     try {
